@@ -123,6 +123,6 @@ host Revolte {
     fixed-address 192.236.3.69;
 }
 
-echo 'INTERFACESv4="eth0"' > /etc/default/isc-dhcp-server' > /etc/dhcp/dhcpd.conf
+echo 'INTERFACESv4="eth0"' > /etc/default/isc-dhcp-server
 
 service isc-dhcp-server restart
