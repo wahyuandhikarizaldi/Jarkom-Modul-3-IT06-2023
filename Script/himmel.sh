@@ -60,8 +60,6 @@ subnet 192.236.4.0 netmask 255.255.255.0 {
     option domain-name-servers 192.236.1.2;
 } ' > /etc/dhcp/dhcpd.conf
 
-service isc-dhcp-server start
-
 #5
 
 echo 'subnet 192.236.1.0 netmask 255.255.255.0 {
