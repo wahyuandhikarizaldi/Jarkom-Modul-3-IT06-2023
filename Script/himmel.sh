@@ -121,6 +121,8 @@ host Fern {
 host Revolte {
     hardware ethernet 72:6b:28:1d:7f:63;
     fixed-address 192.236.3.69;
-}' > /etc/dhcp/dhcpd.conf
+}
+
+echo 'INTERFACESv4="eth0"' > /etc/default/isc-dhcp-server' > /etc/dhcp/dhcpd.conf
 
 service isc-dhcp-server restart
