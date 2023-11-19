@@ -5,7 +5,7 @@
 | Nama | NRP |
 |---------------------------|------------|
 |Wahyu Andhika Rizaldi | 5027211003 |
-|Sedtia Prakoso | 5027211014 |
+|Sedtia Prakoso Budi Tirto Arto | 5027211014 |
 
 ## Topologi
 ![image](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-3-IT06-2023/assets/113814423/861468ab-2fdd-4aa9-9749-f0dccf2d3822)
@@ -80,7 +80,6 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 192.236.4.0
 
-hwaddress ether a2:53:7b:3e:ff:68
 ```
 - **Flamme**
 ```
@@ -90,7 +89,6 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 192.236.4.0
 
-hwaddress ether 4e:b0:ee:3d:60:cd
 ```
 - **Fern**
 ```
@@ -100,7 +98,6 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 192.236.4.0
 
-hwaddress ether 1e:6d:bd:68:78:76
 ```
 - **Lawine**
 ```
@@ -110,7 +107,6 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 192.236.3.0
 
-hwaddress ether 92:7f:26:b6:37:a2
 ```
 - **Linie**
 ```
@@ -120,7 +116,6 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 192.236.3.0
 
-hwaddress ether da:43:71:45:9a:d4
 ```
 - **Lugner**
 ```
@@ -130,7 +125,6 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 192.236.3.0
 
-hwaddress ether 46:9f:6b:52:43:37
 ```
 - **Stark, Sein, Revolte, Richter**
 ```
